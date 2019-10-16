@@ -11,7 +11,7 @@ public class CommandLIneInput implements Input {
     }
 
     @Override
-    public String readLine() {
+    public String getInput() {
         return scn.nextLine();
 
     }

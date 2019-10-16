@@ -1,7 +1,5 @@
 package com.company;
 
-
-
-public interface RunCommand<T> extends Command<T> {
+public interface RunCommand extends Command {
     void run();
 }
